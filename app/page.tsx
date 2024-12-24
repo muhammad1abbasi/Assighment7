@@ -1,6 +1,6 @@
 import Header from '@/components/Header'
 import React from 'react'
-import Hero from '@/components/hero'
+import Hero from '@/components/Hero'
 
 const Page = () => {
   return (
