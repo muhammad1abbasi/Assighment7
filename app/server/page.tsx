@@ -1,4 +1,4 @@
-import React, {Suspense} from "react";
+
 
 interface Book {
     id: number;
@@ -41,16 +41,7 @@ const ServerPage = async () => {
     );
 };
 
-const Loading = () => (
-    <div className="min-h-screen flex items-center justify-center bg-black text-white">
-        <h1 className="text-4xl font-bold">Loading...</h1>
-    </div>
-);
 
-const ServerPageWithLoading = () => (
- <Suspense fallback={<Loading/>}>
-    <ServerPage/>
- </Suspense>
-)
+
 
 export default ServerPage;
